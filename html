@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnósticos de Enfermería y Planes de Cuidados</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#inicio"><i class="fas fa-home"></i> Inicio</a></li>
+            <li><a href="#blog"><i class="fas fa-blog"></i> Blog</a></li>
+            <li><a href="#contacto"><i class="fas fa-envelope"></i> Contacto</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Diagnósticos de Enfermería y Planes de Cuidados</h1>
+        <p class="bienvenida">Bienvenidos a Diagnósticos de Enfermería y Planes de Cuidados. En esta plataforma, hemos creado un espacio especialmente diseñado para estudiantes y profesionales de la salud que buscan mejorar sus conocimientos y habilidades en el cuidado de pacientes. Aquí, podrás encontrar diagnósticos de enfermería detallados, planes de cuidados personalizados, actividades específicas, y recomendaciones clave para el manejo de diversas condiciones de salud.</p>
+        <p class="bienvenida">Nuestro objetivo es proporcionar una herramienta integral y accesible que te permita:</p>
+        <ul class="bienvenida">
+            <li>Buscar y explorar diagnósticos de enfermería con sus respectivos planes de cuidados.</li>
+            <li>Acceder a material didáctico de alta calidad, incluyendo videos educativos y documentos avalados por la SEP.</li>
+            <li>Visualizar imágenes alusivas a las enfermedades para una mejor interpretación de los signos y síntomas.</li>
+            <li>Consultar las Normas Oficiales Mexicanas (NOM) de enfermería con un visualizador de PDF en tiempo real.</li>
+            <li>Participar en nuestra comunidad a través de foros de discusión y un blog donde puedes compartir tus experiencias, subir imágenes, videos, audios y documentos.</li>
+        </ul>
+        <p class="bienvenida">Nos comprometemos a mantener nuestro contenido actualizado constantemente, asegurándonos de que siempre tengas acceso a la información más reciente y relevante. Nuestra misión es formar futuros enfermeros de calidad, equipándolos con las herramientas y conocimientos necesarios para brindar una atención excepcional.</p>
+        <p class="bienvenida">¡Únete a nuestra comunidad y descubre todo lo que tenemos para ofrecer! Juntos, podemos hacer una diferencia en el mundo de la enfermería. 🚀</p>
+    </header>
+    <main>
+        <section id="search">
+            <h2>Búsqueda de Diagnósticos y NOM</h2>
+            <input type="text" id="search-bar" placeholder="Buscar diagnósticos o NOM...">
+            <button id="search-button">Buscar</button>
+        </section>
+        <section id="diagnostics">
+            <h2>Diagnósticos de Enfermería</h2>
+            <ul>
+                <li><a href="#diagnostic1">Patrón Respiratorio Ineficaz</a></li>
+                <li><a href="#diagnostic2">Diagnóstico 2</a></li>
+                <li><a href="#diagnostic3">Diagnóstico 3</a></li>
+                <!-- Más diagnósticos... -->
+            </ul>
+        </section>
+        <section id="plan-de-cuidados">
+            <h2>Plan de Cuidados</h2>
+            <article id="diagnostic1">
+                <h3>Patrón Respiratorio Ineficaz</h3>
+                <p>Relacionado con la obstrucción de las vías respiratorias, manifestado por disnea y uso de músculos accesorios para respirar.</p>
+                <h4>Plan de Cuidados:</h4>
+                <ul>
+                    <li><strong>Objetivos:</strong> Mejorar la ventilación y reducir la disnea.</li>
+                    <li><strong>Intervenciones:</strong>
+                        <ul>
+                            <li>Monitorizar la frecuencia y el patrón respiratorio.</li>
+                            <li>Administrar broncodilatadores según la prescripción médica.</li>
+                            <li>Enseñar técnicas de respiración diafragmática y de labios fruncidos.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Cuidados del Paciente:</strong> Evaluar la expansión torácica, presencia de edema periférico.</li>
+                    <li><strong>Recomendaciones:</strong> Evitar la exposición a irritantes pulmonares, mantener una buena hidratación.</li>
+                </ul>
+                <h4>Imagen Alusiva:</h4>
+                <img src="https://www.cdc.gov/copd/images/COPD-graphic.jpg" alt="Patrón Respiratorio Ineficaz">
+                <h4>Videos Educativos:</h4>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=J1MOL3vG_ds">¿Qué es la EPOC y cuáles son sus síntomas?</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=v5VfV_7Isx0">Vídeo de tratamiento de EPOC - enfermedad pulmonar obstructiva</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=SmUhBW2qRC4">EPOC: qué es y su tratamiento</a></li>
+                </ul>
+                <h4>Material Didáctico:</h4>
+                <ul>
+                    <li><a href="https://www.escueladepacientes.es/enfermedades-respiratorias/epoc/videoteca-epoc">Videoteca sobre EPOC - Escuela de Pacientes</a></li>
+                    <li><a href="https://nuevaescuelamexicana.sep.gob.mx/detalle-recurso/20653/">¿En qué consiste la EPOC? - Nueva Escuela Mexicana</a></li>
+                    <li><a href="https://www.copdfoundation.org/es/Materiales-Educativos.aspx">Materiales Educativos - COPD Foundation</a></li>
+                </ul>
+            </article>
+            <!-- Más artículos de diagnósticos... -->
+        </section>
+        <section id="nom">
+            <h2>Normas Oficiales Mexicanas (NOM)</h2>
+            <input type="text" id="nom-search-bar" placeholder="Buscar NOM...">
+            <button id="nom-search-button">Buscar</button>
+            <div id="pdf-viewer">
+                <iframe src="https://example.com/nom_019_ssa3_2013.pdf" width="100%" height="600px"></iframe>
+            </div>
+        </section>
+        <section id="community">
+            <h2>Comunidad</h2>
+            <div id="forum">
+                <h3>Foro de Discusión</h3>
+                <p>Espacio para que los usuarios escriban sus comentarios y compartan experiencias.</p>
+                <!-- Foro de discusión... -->
+            </div>
+            <div id="blog">
+                <h3>Blog de la Comunidad</h3>
+                <p>Los usuarios pueden compartir sus experiencias, subir imágenes, videos, audios y documentos.</p>
+                <!-- Blog de la comunidad... -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h2>Contacto</h2>
+        <form id="contact-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
